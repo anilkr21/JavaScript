@@ -1,0 +1,27 @@
+ .textHome:hover{
+    background: linear-gradient(50deg, transparent 0%, #ff3c00 80%, transparent 100%);
+    background-size: 200% 100%; /* Double the size for animation */
+    background-position: 100% 0; /* Start position */
+    transition: background-position 0.3s ease; /* Smooth transition */
+    color: white;
+    font-size: 100px;
+    transition-duration: 500ms;
+}  
+.hover-effect {
+    font-size: 70px;
+    font-weight: 800;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    color: black;
+    margin: 10px 0; /* Spacing between items */
+    background: linear-gradient(90deg, transparent 0%, #ff3c00 50%, transparent 100%);
+    background-size: 200% 100%; /* Double the size for animation */
+    background-position: 100% 0; /* Start position */
+    transition: background-position 0.3s ease; /* Smooth transition */
+}
+
+.hover-effect:hover {
+    font-size: 80px; /* Increase font size on hover */
+    background-position: 0 0; /* Move to left position on hover */
+}
